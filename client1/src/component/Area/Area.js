@@ -7,12 +7,12 @@ const AreaOptions = [
     label: '서울',
     children: [
       {
-        value: '대전',
-        label: '대전',
+        value: '용산구',
+        label: '용산구',
         children: [
           {
-            value: 'xihu',
-            label: 'West Lake',
+            value: '용산동',
+            label: '용산동',
           },
         ],
       },
@@ -43,8 +43,10 @@ const onChange = (value) => {
 
 const Area = () => {
   return (
-    <div>
+    <div style={{ display: "flex", justifyContent: 'center' }}>
+      <div className="AreaSelect">   지역 선택  : </div>
       <Cascader options={AreaOptions} onChange={onChange} placeholder="Please select" />;
+
     </div>
   )
 }
