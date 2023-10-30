@@ -1,0 +1,27 @@
+.bottom {
+  color: #868B94;
+  font-size: 0.85rem;
+}
+
+.bottomTopWrap {
+  display: flex;
+   
+}
+
+.two_a {
+  margin-left: 10px;
+}
+
+
+.bottomTop_Three {
+  font-size: 2rem;
+  display: flex;
+
+  margin-left: 60%;
+  justify-items: flex-end;
+}
+
+
+.bottomOne {
+  margin-left: 10px;
+}

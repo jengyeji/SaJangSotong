@@ -1,0 +1,32 @@
+
+
+@font-face {
+  font-family: 'JeonjuCraftMjB';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftMjB.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.Main {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+
+.MainImg{
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  vertical-align: top;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-family: 'JeonjuCraftMjB';
+  color: white;
+}
